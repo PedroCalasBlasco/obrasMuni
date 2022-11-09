@@ -1,0 +1,153 @@
+ @font-face {
+     font-family: 'Nunito';
+     src: url('../fonts/Nunito-Regular.ttf');
+ }
+
+ body {
+     font-family: 'Nunito';
+ }
+
+ header .headerText {
+     background-color: #13b990;
+     color: white;
+
+ }
+
+ header .headerbutton {
+     background-color: white;
+     font-size: 2rem;
+     color: #13b990;
+ }
+
+ header .headerbutton :hover {
+     cursor: pointer;
+ }
+
+ header .headerbutton div {
+     margin-top: 11px;
+     margin-left: 38px;
+ }
+
+
+ header .headerlogo {
+     background-color: #13b990;
+ }
+
+ @media (max-width: 767.98px) {
+
+     eader .headerbutton {
+         font-size: 0.7rem;
+     }
+
+     header .headerbutton div {
+         margin-top: 14px;
+         margin-left: 33px;
+     }
+
+     header .headerText h1 {
+         font-size: 1.3rem;
+     }
+
+     header .headerlogo {
+         padding-top: 5px;
+         text-align: center;
+     }
+
+     /* header .headerlogo img{
+        width: 40%;   
+    } */
+ }
+
+ @media (max-width: 575.98px) {
+     header .headerbutton {
+         font-size: 1rem;
+     }
+
+     header .headerbutton div {
+         margin-top: 16px;
+         margin-left: 10px;
+     }
+
+     header .headerText h1 {
+         font-size: 0.8rem;
+     }
+
+     header .headerlogo {
+         padding-top: 5px;
+         text-align: center;
+     }
+ }
+
+
+#buttonSidebar .row .active{
+    background-color: #13b990;
+    cursor: pointer;
+    color: white
+}
+
+#buttonSidebar .row .active *{
+    color: white
+}
+
+
+#buttonSidebar .row :hover {
+    background-color: #13b990;
+    cursor: pointer;
+    color: white
+}
+
+#buttonSidebar .row :hover * {
+    color: white
+}
+
+#buttonSidebar {
+    overflow-y: scroll;
+    position: absolute;
+    top: vh;
+    left: 0;
+    width: 10vw;
+    height: 88vh;
+    z-index: 8000;
+    background-color: white;
+    color: #13b990;
+}
+
+.iconify{
+    font-size: 23px;
+    color: #13b990;
+}
+
+@media (max-width: 767.98px) {
+    #buttonSidebar {
+        display: none;
+        top: 23vh;
+        width: 20vw;
+
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    #buttonSidebar {
+        display: none;
+        top: 12vh;
+        width: 19vw;
+        height: 87vh;
+    }
+
+    #buttonSidebar p {
+        font-size: 0.6rem;
+    }
+}
+
+
+.leftButtons{
+border-bottom: 1px solid #13b990;
+
+}
+
+      
+#map {
+       height: 89vh;
+   }
