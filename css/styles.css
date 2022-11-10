@@ -33,6 +33,10 @@
      background-color: #13b990;
  }
 
+    #map {
+        height: 89vh;
+    }
+
  @media (max-width: 767.98px) {
 
      eader .headerbutton {
@@ -112,6 +116,19 @@
     color: #13b990;
 }
 
+@media (max-width: 767.98px) {
+    #buttonSidebar {
+        width: 24vw;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    #buttonSidebar {
+        width: 14vw;
+    }
+}
+
 .iconify{
     font-size: 23px;
     color: #13b990;
@@ -131,13 +148,17 @@
 
     #buttonSidebar {
         display: none;
-        top: 12vh;
-        width: 19vw;
+        top: 6vh;
+        width: 24vw;
         height: 87vh;
     }
 
     #buttonSidebar p {
         font-size: 0.6rem;
+    }
+
+    #map {
+        height: 94vh;
     }
 }
 
@@ -147,7 +168,3 @@ border-bottom: 1px solid #13b990;
 
 }
 
-      
-#map {
-       height: 89vh;
-   }
